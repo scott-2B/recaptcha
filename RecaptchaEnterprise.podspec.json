@@ -1,0 +1,35 @@
+{
+    "authors": "Google, Inc.",
+    "dependencies": {
+        "GTMSessionFetcher/Core": "~> 1.1",
+        "GoogleToolboxForMac/NSData+zlib": "~> 2.1",
+        "PromisesObjCSV": "1.2.13",
+        "PromisesSwift": "~> 1.2.8",
+        "Protobuf": "~> 3.12.0"
+    },
+    "description": "Pod containing the reCAPTCHA Enterprise solution for iOS",
+    "frameworks": [
+        "Foundation"
+    ],
+    "homepage": "https://cloud.google.com/recaptcha-enterprise",
+    "libraries": [
+        "c++"
+    ],
+    "license": {
+        "text": "Copyright 2020 Google",
+        "type": "Copyright"
+    },
+    "name": "RecaptchaEnterprise",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "source": {
+        "http": "https://dl.google.com/dl/cpdc/4c764d3bff71f565/RecaptchaEnterprise-16.0.3.tar.gz"
+    },
+    "summary": "RecaptchaEnterprise solution podspec for iOS",
+    "swift_versions": "5.1",
+    "vendored_frameworks": [
+        "Frameworks/recaptcha.framework"
+    ],
+    "version": "16.0.3"
+}
